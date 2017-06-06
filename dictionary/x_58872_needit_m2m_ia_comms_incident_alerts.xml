@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Needit M2m Ia Comms Incident Alerts" max_length="40" name="x_58872_needit_m2m_ia_comms_incident_alerts" type="collection">
+        <element label="IA_Comm" max_length="32" name="ia_comm" reference="x_58872_needit_ia_comm" type="reference"/>
+        <element label="Incident Alert" max_length="32" name="incident_alert" reference="incident_alert" type="reference"/>
+        <index name="index">
+            <element name="incident_alert"/>
+        </index>
+        <index name="index2">
+            <element name="ia_comm"/>
+        </index>
+    </element>
+</database>

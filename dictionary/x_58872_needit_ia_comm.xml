@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IA_Comm" max_length="40" name="x_58872_needit_ia_comm" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="Awareness | Initial | [PBU] | [Property/Service]" label="Subject" mandatory="true" max_length="255" name="subject" type="string"/>
+    </element>
+</database>
